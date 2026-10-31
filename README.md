@@ -1,4 +1,3 @@
 # Java Developer
 ## My Projects
-** I am learning Java**
-*OOP is interesting*
+*I am learning Java*
