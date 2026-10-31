@@ -1,6 +1,5 @@
 # Java Developer
-## My Projects
-*I am learning Java*
-~~Java Developer~~
-**Java Developer**
-`System.out.println()`
+-Learn Java
+-Learn OOP
+-Build Projects
+-Learn Spring Boot
