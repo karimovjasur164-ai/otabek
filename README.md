@@ -4,4 +4,4 @@
 ***
 ## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-green)
 ***
-**If else bu agar bo'lmasam degani 
+**If else bu `agar bo'lmasam` degani 
