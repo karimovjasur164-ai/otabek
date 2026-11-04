@@ -15,4 +15,8 @@ public class Main{
       System.out.print("Enter Number [2] : ");
       b = sc.nextInt();
       if ( a <= b) {
+          System.out.print("A > B dan Katta:");
+      }else {
+       System.out.print("A < B dan kichik");
+      }
          
