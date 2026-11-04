@@ -39,3 +39,7 @@ public static void main(String [] args){
     }
   }
 }
+```
+**Keyin esa Foydanlanuvchidan so'rayapmiz Kabsi yili kirgizing deb `System.out.print`**
+**Va `int` butun son olish uchun ishlatiyapmiz keyin `int` sondi olib bo'lib qaysidur hotiraga solish kerak endi bunda  bitta `n` emas boshqa so'zlardan yoki harflardan olsa bo'ladi `-, _` << foydanlanib yoki foydanlanmasdan ishlatsa ham bo'ladi 
+**keyin `if` bilan tekshirib olyapmiz yani foydanalnuvchidan qaqadir son kelsa uni birinchi qavsi ichidagi hisoblab olyapti `if ( (n % 4 == 0 << )`
