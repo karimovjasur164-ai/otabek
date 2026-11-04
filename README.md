@@ -4,4 +4,15 @@
 ***
 ## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-green)
 ***
-**If else bu `agar bo'lmasam` degani 
+**`If else bu` `agar bo'lmasam` degani undan `"bank, bankamat va boshqa narsalarda qatib hisob uchun ishlatiladi "` misol uchun >>>
+```Java
+public class Main{
+   public static void main(String [] args){
+      Scanner sc = new Scanner(System.in);
+      int a, b;
+      System.out.print("Enter Number [1] : ");
+      a = sc.nextInt();
+      System.out.print("Enter Number [2] : ");
+      b = sc.nextInt();
+      if ( a <= b) {
+         
