@@ -21,4 +21,18 @@ public class Main{
 ```
 ## Bu qisqacha tushunganimizni bildirish 
 ## Endi HomeWorkdi misolari
-***
+**Bu yerda Kabsi yilini kiritishni so'rayapmniz**
+**Va `Scanner` olyapmiz 
+```Java
+public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Kabsi yilini kiriting : ");
+    int n = sc.nextInt();
+    if( (n % 4 == 0 && n % 100 != 0) || n % 400 == )){
+       System.out.print("Kabsi yili");
+    }else {
+        System.out.print("Kabsi yili emas: ");
+    }
+  }
+}
