@@ -22,7 +22,7 @@ public class Main{
 ## Bu qisqacha tushunganimizni bildirish 
 ## Endi HomeWorkdi misolari
 # ----------------------------------------- #
-## *If - else Bilan* ![If_else](https://img.shields.io/badge/If_else-red)
+## *If - else Bilan* ![If_else](https://img.shields.io/badge/If_else-green)
 ## ~~Switch~~ *bilan emas*
 **Bu yerda Kabsi yilini kiritishni so'rayapmniz**
 **Va `Scanner` olyapmiz**
