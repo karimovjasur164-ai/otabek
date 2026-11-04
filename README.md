@@ -3,3 +3,5 @@
 ## Founder : Rahimjonov Otabek
 ***
 ## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-green)
+***
+**If else bu agar bo'lmasam degani 
