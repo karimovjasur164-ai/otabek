@@ -23,6 +23,7 @@ public class Main{
 ## Endi HomeWorkdi misolari
 # ----------------------------------------- #
 ## *If - else Bilan*
+## ~~Switch~~ *bilan emas*
 **Bu yerda Kabsi yilini kiritishni so'rayapmniz**
 **Va `Scanner` olyapmiz**
 ```Java
