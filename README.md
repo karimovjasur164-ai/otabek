@@ -23,7 +23,7 @@ public class Main{
 ## Endi HomeWorkdi misolari
 # ----------------------------------------- #
 ## *If - else Bilan* ![If_else](https://img.shields.io/badge/If_else-green)
-## ~~Switch~~ *bilan emas*
+## ~~Switch~~ *bilan emas* ![Switch](https://img.shields.io/badge/Switch-red)
 **Bu yerda Kabsi yilini kiritishni so'rayapmniz**
 **Va `Scanner` olyapmiz**
 ```Java
