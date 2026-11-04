@@ -21,6 +21,7 @@ public class Main{
 ```
 ## Bu qisqacha tushunganimizni bildirish 
 ## Endi HomeWorkdi misolari
+# ---------------------------------------------------- #
 **Bu yerda Kabsi yilini kiritishni so'rayapmniz**
 **Va `Scanner` olyapmiz**
 ```Java
