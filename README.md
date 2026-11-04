@@ -2,4 +2,4 @@
 ***
 ## Founder : Rahimjonov Otabek
 ***
-## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-purple)
+## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-green)
