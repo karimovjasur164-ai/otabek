@@ -22,7 +22,7 @@ public class Main{
 ## Bu qisqacha tushunganimizni bildirish 
 ## Endi HomeWorkdi misolari
 **Bu yerda Kabsi yilini kiritishni so'rayapmniz**
-**Va `Scanner` olyapmiz 
+**Va `Scanner` olyapmiz**
 ```Java
 public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
