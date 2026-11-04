@@ -19,4 +19,8 @@ public class Main{
       }else {
        System.out.print("A < B dan kichik");
       }
-         
+```
+## Bu qisqacha tushunganimizni bildirish 
+***
+## Endi HomeWorkdi misolari
+***
