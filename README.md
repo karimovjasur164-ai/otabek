@@ -3,7 +3,6 @@
 ## Founder : Rahimjonov Otabek
 ***
 ## #*--------------- [ Home Work ] ------------*#![HomeWork](https://img.shields.io/badge/HomeWork-green)
-***
 **`If else bu` `agar bo'lmasam` degani undan `"bank, bankamat va boshqa narsalarda qatib hisob uchun ishlatiladi "` misol uchun >>>
 ```Java
 public class Main{
@@ -21,6 +20,5 @@ public class Main{
       }
 ```
 ## Bu qisqacha tushunganimizni bildirish 
-***
 ## Endi HomeWorkdi misolari
 ***
