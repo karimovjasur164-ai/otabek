@@ -1,1 +1,1 @@
-# Java Developer ![Java Developer](https://img.shields.io/badge/Java Developer-purple)
+# Inheritance ![Inheritance](https://img.shields.io/badge/Inheritance-purple)
