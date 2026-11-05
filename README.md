@@ -109,7 +109,7 @@ public class uygavazifa5 {
         int n = input.nextInt();
 
         int a = n / 100 ;     // Yuzlar xonasi
-        int b = (n / 10) % 10; // Onlar xonasi
+        int b = (n / 10) % 10; // O'nlar xonasi
         int c = n % 10;       // Birlar Xonasi
         
         // Ketma-ketlikni tekshirish
