@@ -90,4 +90,3 @@ public class uygavazifa4 {
     }
 }
 ```
-## 📄 Masala sharti: 4-mashq (Exercise)
