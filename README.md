@@ -31,10 +31,11 @@ public class Main {
     }
 }
 ```
-## 📄 Masala sharti: 2-mashq (Exercise)
-Berilgan Balldi (Alo , Yaxshi) ekanligini yoki yo'qligini aniqlaydigan Java dasturi yozing 
 
-### 💡 Yechim kodi 
+## 📄 Masala sharti: 2-mashq (Exercise)
+Berilgan ballning darajasini (A'lo, Yaxshi, Qoniqarli, Qoniqarsiz) aniqlaydigan Java dasturini yozing.
+
+### 💡 Yechim kodi
 ```java
 import java.util.Scanner;
 
@@ -42,10 +43,10 @@ public class uygavazifa3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Nechi ball oldingiz :");
+        System.out.print("Nechi ball oldingiz : ");
         int n =  input.nextInt();
         
-        //Balldi mantiqiy tekshirish
+        // Ballni mantiqiy tekshirish
         if (n >= 90 && n <= 100){
             System.out.println("Alo");
         }
@@ -58,14 +59,16 @@ public class uygavazifa3 {
         else {
             System.out.println("qoniqarsiz");
         }
-        sc.close();// Scanner resursini yopish
+        
+        input.close(); // Scanner resursini yopish
     }
 }
 ```
-## 📄 Masala sharti: 3-mashq (Exercise)
-Berilgan Sondi (Palidrom) yoki (Palidrom) emasligini aniqlaydigonn Java dasuturini yozing 
 
-## 💡 Yechim kodi 
+## 📄 Masala sharti: 3-mashq (Exercise)
+Berilgan 3 xonali sonning **Palindrom** (chapdan ham, o'ngdan ham bir xil o'qiladigan) yoki palindrom emasligini aniqlaydigan Java dasturini yozing.
+
+### 💡 Yechim kodi
 ```java
 import java.util.Scanner;
 
@@ -73,20 +76,81 @@ public class uygavazifa4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter number :");
+        System.out.print("Enter number : ");
         int n =  input.nextInt();
         
         int a  = n / 100;
         int b = n % 10;
         
-        //Foydanlanuvchi tarafdan kelyotgan sondi majburiy tekshirish 
+        // Raqamlarni o'zaro solishtirish
         if (a == b){
             System.out.println("Palidrom :");
         }
         else {
             System.out.println("palidrom emas");
         }
-        sc.close();// Scanner resursini yopish
+        
+        input.close(); // Scanner resursini yopish
+    }
+}
+```
+
+## 📄 Masala sharti: 4-mashq (Exercise)
+Berilgan 3 xonali son raqamlarining ketma-ket **o'suvchi** yoki **kamayuvchi** tartibda joylashganligini aniqlaydigan Java dasturini yozing.
+
+### 💡 Yechim kodi
+```java
+import java.util.Scanner;
+
+public class uygavazifa5 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter number  : ");
+        int n = input.nextInt();
+
+        int a = n / 100 ;     // Yuzlar xonasi
+        int b = (n / 10) % 10; // Onlar xonasi
+        int c = n % 10;       // Birlar Xonasi
+        
+        // Ketma-ketlikni tekshirish
+        if((a < b && b < c) || (a > b && b > c)){
+            System.out.println("Ketma - ket o'suvchi yoki kamayuvchi :");
+        }
+        else{
+            System.out.println("tartibsiz yoki teng :");
+        }
+        
+        input.close(); // Scanner resursini yopish
+    }
+}
+```
+
+## 📄 Masala sharti: 5-mashq (Exercise)
+Berilgan 3 xonali son tarkibida hech bo'lmasa ikkita bir xil raqam borligini yoki raqamlarning hammasi har xil ekanligini aniqlaydigan Java dasturini yozing.
+
+### 💡 Yechim kodi
+```java
+import java.util.Scanner;
+
+public class uygavazifa6 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter number : ");
+        int a =  input.nextInt();
+
+        int n = a / 100;       // Yuzlar xonasi
+        int s = (a / 10) % 10; // O'nlar xonasi
+        int birlik = a % 10;   // Birlar xonasi
+
+        // Raqamlarni mantiqiy solishtirish
+        if (n == s || s == birlik || n == birlik) {
+            System.out.println("Hech bo'lmasa ikkita raqami teng!");
+        } 
+        else {
+            System.out.println("Uchala raqami ham har xil!");
+        }
+        
+        input.close(); // Scanner resursini yopish
     }
 }
 ```
